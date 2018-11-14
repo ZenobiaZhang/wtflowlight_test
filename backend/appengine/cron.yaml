@@ -1,0 +1,4 @@
+cron:
+- description: Apply every team's light schedule
+  url: /publish/apply-lights-schedule
+  schedule: every 15 minutes from 08:00 to 18:30
